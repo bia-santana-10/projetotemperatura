@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICAR TEMPERATURA EM SUA CIDADE </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1> Verificando o tempo ...</h1>
+</header>
+
+<main>
+    <p>Preencha os campos abaixo para saber qual é o tempo:</p>
+    <form id="weatherForm">
+        <input type="text" id="state" placeholder="Digite seu estado" required>
+        <br><br>
+        <input type="text" id="city" placeholder="Digite sua cidade" required>
+        <br><br>
+        <button type="submit" id="submitBtn" disabled>Consultar o Tempo</button>
+    </form>
+    <div id="weatherInfo"></div>
+
+    <script src="script_tempo.js"></script>
+
+</main>
+<footer>
+<p> Desafio temperatura @turma5 Beatriz Santana </footer>
+</body>
+</html>

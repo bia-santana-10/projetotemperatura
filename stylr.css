@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.btn {
+background-color: #4CAF50;
+color: white;
+margin: 4px 2px;
+font-size: 16 px;
+}
